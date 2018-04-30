@@ -13,7 +13,7 @@ Blockstack浏览器（该git面向中国开发者）让人们浏览blockstack网
 - [Contributing](#contributing)
 - [日志](#日志)
 - [Tech Stack](#技术栈)
-- [Testing](#测试testing)
+- [Testing](#testing)
 
 ## Releases
 
