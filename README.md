@@ -1,4 +1,4 @@
-# Blockstack Browser [![CircleCI](https://img.shields.io/circleci/project/blockstack/blockstack-browser/master.svg)](https://circleci.com/gh/blockstack/blockstack-portal/tree/master) [![License](https://img.shields.io/github/license/blockstack/blockstack-portal.svg)](https://github.com/blockstack/blockstack-portal/blob/master/LICENSE.md) [![Slack](http://chat.blockstack.org/badge.svg)](http://chat.blockstack.org/)
+# Blockstack Browser(区块堆浏览器) [![CircleCI](https://img.shields.io/circleci/project/blockstack/blockstack-browser/master.svg)](https://circleci.com/gh/blockstack/blockstack-portal/tree/master) [![License](https://img.shields.io/github/license/blockstack/blockstack-portal.svg)](https://github.com/blockstack/blockstack-portal/blob/master/LICENSE.md) [![Slack](http://chat.blockstack.org/badge.svg)](http://chat.blockstack.org/)
 
 Blockstack浏览器（该git面向中国开发者）让人们浏览blockstack网络上的站点信息。
 参与Blockstack社区请到：https://contribute.blockstack.org/ 
@@ -7,7 +7,7 @@ Blockstack浏览器（该git面向中国开发者）让人们浏览blockstack网
 
 - [最新版本下载](#最新版本下载)
 - [开发注意项](#开发注意项)
-- [Building for macOS](#building-for-macos)
+- [macOS开发者注意项](#macOS开发者注意项)
 - [Building for the Web](#building-for-the-web)
 - [如何为这个社区做贡献](#如何为这个社区做贡献)
 - [日志](#日志)
@@ -20,7 +20,7 @@ Blockstack浏览器（该git面向中国开发者）让人们浏览blockstack网
 
 ## 开发注意项
 
-Blockstack（开发区块堆浏览器）需要一个安装一个本地的blockstack 内核才可以使用，首先您安装好Blockstack 内核，然后再进行开发blockstack 浏览器
+开发Blockstack区块堆浏览器需要一个安装一个本地的blockstack 内核才可以使用，首先您安装好Blockstack 内核，然后再进行开发blockstack 浏览器
 
 ### macOS开发者
 
@@ -58,7 +58,7 @@ Blockstack for macOS contains a Blockstack Core API endpoint & a CORS proxy.
 *Note: npm dev runs a BrowserSync process that watches the assets in `/app`, then builds them and places them in `/build`, and in turn serves them up on port 3000. When changes are made to the original files, they are rebuilt and re-synced to the browser frames you have open.*
 
 
-## Building for macOS
+## macOS开发者注意项
 
 1. Make sure you have a working installation of Xcode 8 or higher & valid Mac Developer signing certificate
 1. Make sure you have an OpenSSL ready for bottling by homebrew by running `brew install openssl --build-bottle`
