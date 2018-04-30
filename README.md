@@ -6,8 +6,8 @@ Blockstack浏览器（该git面向中国开发者）让人们浏览blockstack网
 
 ## Table of contents
 
-- [最新版本下载](#最新版本下载releases)
-- [开发注意项](#开发提示developing)
+- [最新版本下载](#最新版本下载)
+- [开发注意项](#开发注意项)
 - [Building for macOS](#building-for-macos)
 - [Building for the Web](#building-for-the-web)
 - [Contributing](#contributing)
