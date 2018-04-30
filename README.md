@@ -91,16 +91,13 @@ Blockstack for macOS contains a Blockstack Core API endpoint & a CORS proxy.
 1. Run `npm run web`
 
 
-## Contributing
+## 如何为这个社区做贡献
 
-We do project-wide sprints every two weeks and we're always looking for more help.
+我们期待全世界的开发者参与到这个开源工程中来，
+如果你热爱这个工程请到 [contributing guidelines](/CONTRIBUTING.md). https://contribute.blockstack.org/ ，在这个里面，您可以看到很多待处理的问题、编码标准、开发相关的笔记记录。
+## Logging日志部分
 
-If you'd like to contribute, head to the [contributing guidelines](/CONTRIBUTING.md). Inside you'll find directions for opening issues, coding standards, and notes on development.
-
-## Logging
-
-The Portal uses `log4js` for logging. The macOS app uses macOS's unified logging
-API, `os_log` for logging.
+这个浏览器使用`log4js`作为日志，macOS 应用使用`os_log` 作为日志。
 
 ### macOS
 
@@ -132,9 +129,9 @@ them into an email or github issue.
 More technical users (with admin permission) can use the `sysdiagnose` command
 to generate a custom dump of information.
 
-## Tech Stack
+## Tech Stack（技术栈）
 
-This app uses the latest versions of the following libraries:
+这个bloackstack使用最新的库和工具如下:
 
 - [React Rocket Boilerplate](https://github.com/jakemmarsh/react-rocket-boilerplate)
 - [ReactJS](https://github.com/facebook/react)
@@ -148,7 +145,7 @@ This app uses the latest versions of the following libraries:
 Along with many Gulp libraries (these can be seen in either `package.json`, or at the top of each task in `/gulp/tasks/`).
 
 
-## Testing
+## 测试部分
 
 1. If you haven't already, follow steps 1 & 2 above
 2. If you haven't already run `npm run dev` or `npm run build` at least once, run `npm run build`
