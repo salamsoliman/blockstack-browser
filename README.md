@@ -11,13 +11,13 @@ Blockstack浏览器（该git面向中国开发者）让人们浏览blockstack网
 - [Building for macOS](#building-for-macos)
 - [Building for the Web](#building-for-the-web)
 - [Contributing](#contributing)
-- [Logging](#日志logging)
-- [Tech Stack](#技术栈tech-stack)
+- [Logging](#日志)
+- [Tech Stack](#技术栈)
 - [Testing](#测试testing)
 
 ## Releases
 
-[Download the latest release](https://github.com/blockstack/blockstack-portal/releases)
+[下载最新版本](https://github.com/blockstack/blockstack-portal/releases)
 
 ## 开发相关提示
 
@@ -29,7 +29,7 @@ Blockstack for macOS contains a Blockstack Core API endpoint & a CORS proxy.
 
 *请注意这些配置命令仅在 macOS 10.12.4.上有效*
 
-1. 下载并安装最新版本的Download and install the [latest release of Blockstack for Mac](https://github.com/blockstack/blockstack-portal/releases).
+1. 下载并安装最新版本的mac版本blockstack浏览器 [latest release of Blockstack for Mac](https://github.com/blockstack/blockstack-portal/releases).
 1. 安装blockstack
 1. Option-click the Blockstack menu bar item and select "Enable Development Mode"
 1. 克隆这个库: `git clone https://github.com/blockstack/blockstack-portal.git`
