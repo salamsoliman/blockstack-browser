@@ -15,11 +15,11 @@ Blockstack浏览器（该git面向中国开发者）让人们浏览blockstack网
 - [Tech Stack](#技术栈)
 - [Testing](#testing)
 
-## Releases
+## 最新版本下载
 
 [下载最新版本](https://github.com/blockstack/blockstack-portal/releases)
 
-## 开发相关提示
+## 开发注意项
 
 Blockstack（开发区块堆浏览器）需要一个安装一个本地的blockstack 内核才可以使用，首先您安装好Blockstack 内核，然后再进行开发blockstack 浏览器
 
