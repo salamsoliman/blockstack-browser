@@ -1,6 +1,6 @@
 # Blockstack Browser(区块堆浏览器) [![CircleCI](https://img.shields.io/circleci/project/blockstack/blockstack-browser/master.svg)](https://circleci.com/gh/blockstack/blockstack-portal/tree/master) [![License](https://img.shields.io/github/license/blockstack/blockstack-portal.svg)](https://github.com/blockstack/blockstack-portal/blob/master/LICENSE.md) [![Slack](http://chat.blockstack.org/badge.svg)](http://chat.blockstack.org/)
 
-Blockstack浏览器（该git面向中国开发者）让人们浏览blockstack网络上的站点信息。
+Blockstack浏览器可以让让人们浏览blockstack网络上的站点信息，使用去中心化的应用程序，该git面向中国开发者。
 参与Blockstack社区请到：https://contribute.blockstack.org/ 
 
 ## 内容列表
@@ -71,7 +71,7 @@ Blockstack for macOS contains a Blockstack Core API endpoint & a CORS proxy.
 
 *Note: This has only been tested on macOS Sierra 10.12.4*
 
-### Building a macOS release for distribution
+### macOS开发者注意项
 
 1. Ensure you have valid Developer ID signing credentials in your Keychain. (See https://developer.apple.com/developer-id/ for more information)
 1. Follow the instructions in the above section for building for macOS.
