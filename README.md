@@ -1,41 +1,42 @@
 # Blockstack Browser [![CircleCI](https://img.shields.io/circleci/project/blockstack/blockstack-browser/master.svg)](https://circleci.com/gh/blockstack/blockstack-portal/tree/master) [![License](https://img.shields.io/github/license/blockstack/blockstack-portal.svg)](https://github.com/blockstack/blockstack-portal/blob/master/LICENSE.md) [![Slack](http://chat.blockstack.org/badge.svg)](http://chat.blockstack.org/)
 
 The Blockstack Browser Portal allows you to explore the Blockstack internet.
+Blockstack浏览器（该git面向中国开发者）让人们浏览blockstack网络上的站点信息。
+参与Blockstack社区请到：contribute.blockstack.org 
 
 ## Table of contents
 
-- [Releases](#releases)
-- [Developing](#developing)
+- [Releases](#最新版本下载releases)
+- [Developing](#开发提示developing)
 - [Building for macOS](#building-for-macos)
 - [Building for the Web](#building-for-the-web)
 - [Contributing](#contributing)
-- [Logging](#logging)
-- [Tech Stack](#tech-stack)
-- [Testing](#testing)
+- [Logging](#日志logging)
+- [Tech Stack](#技术栈tech-stack)
+- [Testing](#测试testing)
 
 ## Releases
 
 [Download the latest release](https://github.com/blockstack/blockstack-portal/releases)
 
-## Developing
+## 开发相关提示
 
-Blockstack Portal requires a local instance of Blockstack Core to run. To get started, first install Blockstack Core and then proceed with the installation of Blockstack Portal.
+Blockstack（开发区块堆浏览器）需要一个安装一个本地的blockstack 内核才可以使用，首先您安装好Blockstack 内核，然后再进行开发blockstack 浏览器
 
-### macOS
+### macOS开发者
 
 Blockstack for macOS contains a Blockstack Core API endpoint & a CORS proxy.
 
-*Please note these instructions have only been tested on macOS 10.12.4.*
+*请注意这些配置命令仅在 macOS 10.12.4.上有效*
 
-1. Download and install the [latest release of Blockstack for Mac](https://github.com/blockstack/blockstack-portal/releases).
-1. Start Blockstack
+1. 下载并安装最新版本的Download and install the [latest release of Blockstack for Mac](https://github.com/blockstack/blockstack-portal/releases).
+1. 安装blockstack
 1. Option-click the Blockstack menu bar item and select "Enable Development Mode"
-1. Clone this repo: `git clone https://github.com/blockstack/blockstack-portal.git`
-1. Install node dependencies: `npm install`
-1. Click the Blockstack menu bar item and select "Copy Core API password"
-1. Run `npm run dev`
-1. When prompted in your browser, enter the Core API password and click save.
-
+1. 克隆这个库: `git clone https://github.com/blockstack/blockstack-portal.git`
+1. 执行这个命令: `npm install`
+1. 点击Blockstack菜单选项选择"Copy Core API password"
+1. 运行 `npm run dev`
+1. 当调转到您的浏览器时，输入您的Core API密码然后点击保存。
 
 ### Linux
 
