@@ -1,19 +1,18 @@
 # Blockstack Browser [![CircleCI](https://img.shields.io/circleci/project/blockstack/blockstack-browser/master.svg)](https://circleci.com/gh/blockstack/blockstack-portal/tree/master) [![License](https://img.shields.io/github/license/blockstack/blockstack-portal.svg)](https://github.com/blockstack/blockstack-portal/blob/master/LICENSE.md) [![Slack](http://chat.blockstack.org/badge.svg)](http://chat.blockstack.org/)
 
-The Blockstack Browser Portal allows you to explore the Blockstack internet.
 Blockstack浏览器（该git面向中国开发者）让人们浏览blockstack网络上的站点信息。
 参与Blockstack社区请到：https://contribute.blockstack.org/ 
 
-## Table of contents
+## 内容列表
 
 - [最新版本下载](#最新版本下载)
 - [开发注意项](#开发注意项)
 - [Building for macOS](#building-for-macos)
 - [Building for the Web](#building-for-the-web)
-- [Contributing](#contributing)
+- [如何为这个社区做贡献](#如何为这个社区做贡献)
 - [日志](#日志)
-- [Tech Stack](#技术栈)
-- [Testing](#testing)
+- [技术栈](#技术栈)
+- [测试注意项](#测试注意项)
 
 ## 最新版本下载
 
@@ -129,7 +128,7 @@ them into an email or github issue.
 More technical users (with admin permission) can use the `sysdiagnose` command
 to generate a custom dump of information.
 
-## Tech Stack（技术栈）
+## 技术栈
 
 这个bloackstack使用最新的库和工具如下:
 
@@ -145,7 +144,7 @@ to generate a custom dump of information.
 Along with many Gulp libraries (these can be seen in either `package.json`, or at the top of each task in `/gulp/tasks/`).
 
 
-## 测试部分
+## 测试注意项
 
 1. If you haven't already, follow steps 1 & 2 above
 2. If you haven't already run `npm run dev` or `npm run build` at least once, run `npm run build`
