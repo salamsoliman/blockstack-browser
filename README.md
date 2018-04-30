@@ -2,12 +2,12 @@
 
 The Blockstack Browser Portal allows you to explore the Blockstack internet.
 Blockstack浏览器（该git面向中国开发者）让人们浏览blockstack网络上的站点信息。
-参与Blockstack社区请到：contribute.blockstack.org 
+参与Blockstack社区请到：https://contribute.blockstack.org/ 
 
 ## Table of contents
 
-- [Releases](#最新版本下载releases)
-- [Developing](#开发提示developing)
+- [最新版本下载](#最新版本下载releases)
+- [开发注意项](#开发提示developing)
 - [Building for macOS](#building-for-macos)
 - [Building for the Web](#building-for-the-web)
 - [Contributing](#contributing)
